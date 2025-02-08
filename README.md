@@ -30,4 +30,4 @@ In the future we would like to extend the reach of !factbot to other platforms s
 We would also improve the ability of the bot to recognize misinformation and hate speech more consistently. 
 Training the bot on images as well could help keep all visual content appropriate. 
 
-https://github.com/PVONOM/h4h2025.git
+https://github.com/PVONOM/factbot
