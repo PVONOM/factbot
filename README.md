@@ -38,9 +38,9 @@ https://github.com/PVONOM/factbot
 
 
 To run: 
-    bash setup.sh
-    source venv/bin/activate
-    python main.py
+- bash setup.sh
+- source venv/bin/activate
+- python main.py
 
 Click this link to add !factbot to a discord server
     https://discord.com/oauth2/authorize?client_id=1459699685978673183&permissions=75776&integration_type=0&scope=bot+applications.commands
