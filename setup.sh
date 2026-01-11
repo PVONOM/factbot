@@ -24,10 +24,17 @@ pip install --upgrade pip
 echo "Installing dependencies..."
 pip install -r requirements.txt
 
+# --- Load API keys automatically ---
+export NEWSAPI_KEY=9623df25bca74ee2aa2043729792bba5
+export API_KEY=AIzaSyDP21Zk8lO3U_ais0_NUm3HLL7bjztCfkw
+export CX=a31bb0e4bd68b4707
+
+echo "API keys loaded into environment."
+
 # Done
 echo "Setup complete!"
 echo ""
-echo "To run the bot, activate the environment first:"
+echo "To run the bot (with API keys already loaded), make sure the venv is active:"
 echo "    source venv/bin/activate"
 echo "Then run:"
 echo "    python main.py"

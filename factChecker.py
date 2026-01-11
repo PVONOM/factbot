@@ -5,10 +5,13 @@ import torch
 from typing import List
 import os
 from typing import Final
+from dotenv import load_dotenv
 
 
-API_KEY: Final[str] = os.getenv('SEARCH_API_KEY')
-CX: Final[str] = os.getenv('SEARCH_CX')
+load_dotenv()
+
+API_KEY: Final[str] = os.getenv('API_KEY')
+CX: Final[str] = os.getenv('CX')
 NEWSAPI_KEY: Final[str] = os.getenv('NEWSAPI_KEY')
 
 
