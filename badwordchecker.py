@@ -16,7 +16,7 @@ def check_toxicity(message: str) -> str:
 
 
 # Example messages for toxicity check
-claim2 = "i fucking hate ethnic minorities"
+claim2 = "i hate you and hope that you die"
 print(check_toxicity(claim2))
 
 claim3 = "i love waffles and donuts"
