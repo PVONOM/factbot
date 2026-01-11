@@ -2,13 +2,13 @@ from discord import Intents, Client, Message, Guild
 from discord.ext import commands
 import discord
 import requests
-from responces import get_response, get_facts
+from responses import get_response, get_facts
 import os
 from dotenv import load_dotenv
 from typing import Final
 
 
-# STEP 0: LOAD OUR TOKEN FROM SOMEWHERE SAFE
+# load token from .env
 load_dotenv()
 TOKEN: Final[str] = os.getenv('DISCORD_TOKEN')
 

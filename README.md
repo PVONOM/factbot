@@ -3,9 +3,12 @@
 #### What is !factbot?
 
 !factbot is a Discord chat bot that checks for misinformation and hate speech.  
-It uses the BART pretrained model as well as Google’s programmable search engine to fact check discord messages in real time.
+It uses:
+- BART (facebook/bart-large-mnli) for zero-shot classification and context-aware understanding.
+- Google’s Programmable Search Engine and NewsAPI to fact-check claims against reliable sources.
+Unlike traditional chatbots that rely only on keyword scanning, !factbot detects context in messages, making it more accurate at detecting misinformation and toxic content.
 When !factbot comes across hate speech or profanity it reports it to the moderator.
-Unlike Traditional chatbots that simply scan for keywords and or other predictable queues, !factbot detects context. 
+
 
 #### Why Discord!
 
@@ -31,3 +34,13 @@ We would also improve the ability of the bot to recognize misinformation and hat
 Training the bot on images as well could help keep all visual content appropriate. 
 
 https://github.com/PVONOM/factbot
+
+
+To run: 
+    bash setup.sh
+    source venv/bin/activate
+    python main.py
+
+Click this link to add !factbot to a discord server
+    https://discord.com/oauth2/authorize?client_id=1459699685978673183&permissions=75776&integration_type=0&scope=bot+applications.commands
+
